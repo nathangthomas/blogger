@@ -10,7 +10,6 @@ describe 'user sees all articles' do
     end
 
 
-
     it 'displays all articles' do
       expect(page).to have_content(article_1.title)
       expect(page).to have_content(article_2.title)
