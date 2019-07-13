@@ -16,6 +16,7 @@ describe 'user can create a new article' do
 
         expect(page).to have_content("New Title!")
         expect(page).to have_content("New Body!")
+        expect(page).to have_content("Your article has been created!")
       end
     end
   end
