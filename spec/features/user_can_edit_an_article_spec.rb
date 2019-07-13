@@ -19,6 +19,7 @@ describe 'user can edit an article' do
 
       expect(page).to have_content("This is an edited title.")
       expect(page).to_not have_content("New Title!")
+      expect(page).to have_content("Your article has been updated!")
     end
   end
 end
